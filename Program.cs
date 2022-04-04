@@ -16,7 +16,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DegerAlmaForm());
         }
     }
 }

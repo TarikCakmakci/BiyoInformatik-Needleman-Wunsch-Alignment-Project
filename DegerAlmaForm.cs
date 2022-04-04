@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 {
-    public partial class Form1 : Form
+    public partial class DegerAlmaForm : Form
     {
         int matchValue = +1;
         int mismatchValue = -1;
         int gapValue = -2;
-
-        public Form1()
+        
+        public DegerAlmaForm()
         {
             InitializeComponent();
         }
@@ -37,29 +37,43 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" && textBox2.Text == "" && textBox3.Text == "" )
+            if (textBox1.Text == "" | textBox2.Text == "" | textBox3.Text == "" )
             {
                 DialogResult dia = MessageBox.Show("Değerleri girmezseniz default değerler kullanılacaktır.Default değerlerin kullanılmasını istiyorsanız yes'i, değer girecekseniz no'yu seçiniz.", "Match,Mismatch,Gap Value", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (dia == DialogResult.Yes)
                 {
-                    //Default değerler alınacak
+                    int matchValue = +1;
+                    int mismatchValue = -1;
+                    int gapValue = -2;
                 }
-                if (dia == DialogResult.No)
-                {
-                    //yeni değerleri alıp işlem yapacağız
-                }
+               
             }
-            if (textBox1.Text != null)
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
             {
+                listBox1.Items.Clear();
                 matchValue = Convert.ToInt32(textBox1.Text);
-                MessageBox.Show("Textbox1 dolu.");
+                mismatchValue = Convert.ToInt32(textBox2.Text);
+                gapValue = Convert.ToInt32(textBox3.Text);
+                listBox1.Items.Add("Match Değeri: " + matchValue);
+                listBox1.Items.Add("Mismatch Değeri: " + mismatchValue);
+                listBox1.Items.Add("Gap Değeri:" + gapValue);
             }
-            
 
-            listBox1.Items.Add("Match Değeri: "+matchValue);
-            listBox1.Items.Add("Mismatch Değeri: "+mismatchValue);
-            listBox1.Items.Add("Gap Değeri:"+ gapValue);
 
+            //listBox1.Items.Add("Match Değeri: "+matchValue);
+            //listBox1.Items.Add("Mismatch Değeri: "+mismatchValue);
+            //listBox1.Items.Add("Gap Değeri:"+ gapValue);
+
+
+        }
+
+        private void fileSystemWatcher1_Changed(object sender, System.IO.FileSystemEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
