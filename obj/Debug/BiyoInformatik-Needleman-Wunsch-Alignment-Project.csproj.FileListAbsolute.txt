@@ -1,0 +1,10 @@
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\bin\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.exe.config
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\bin\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.exe
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\bin\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.pdb
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.csproj.AssemblyReference.cache
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.Form1.resources
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.Properties.Resources.resources
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.csproj.GenerateResource.cache
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.csproj.CoreCompileInputs.cache
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.exe
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.pdb
