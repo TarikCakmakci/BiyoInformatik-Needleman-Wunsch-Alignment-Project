@@ -39,13 +39,14 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.mainpanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(106, 86);
+            this.label1.Location = new System.Drawing.Point(117, 89);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(401, 24);
             this.label1.TabIndex = 0;
@@ -114,7 +115,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(214, 334);
+            this.button1.Location = new System.Drawing.Point(215, 341);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(196, 94);
             this.button1.TabIndex = 8;
@@ -132,12 +133,21 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             this.label6.TabIndex = 10;
             this.label6.Text = "Default Değerler";
             // 
+            // mainpanel
+            // 
+            this.mainpanel.Location = new System.Drawing.Point(32, 441);
+            this.mainpanel.Name = "mainpanel";
+            this.mainpanel.Size = new System.Drawing.Size(561, 92);
+            this.mainpanel.TabIndex = 11;
+            // 
             // DegerAlmaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(633, 573);
+            this.Controls.Add(this.mainpanel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
@@ -147,7 +157,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "DegerAlmaForm";
             this.Text = "DegerAlma";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -168,6 +178,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel mainpanel;
     }
 }
 

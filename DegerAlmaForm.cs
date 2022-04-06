@@ -20,6 +20,18 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         {
             InitializeComponent();
         }
+        public void loadForm(object form)
+        {
+            if (this.mainpanel.Controls.Count >0)
+            {
+                this.Controls.RemoveAt(0);
+                Form f = new Form();
+                f.TopLevel = false;
+                f.Dock = DockStyle.Fill;
+                this.mainpanel.Controls.Add(f);
+                this.mainpanel.Tag = f;
+            }
+        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -63,7 +75,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             //listBox1.Items.Add("Match Değeri: "+matchValue);
             //listBox1.Items.Add("Mismatch Değeri: "+mismatchValue);
             //listBox1.Items.Add("Gap Değeri:"+ gapValue);
-
+            loadForm(new DosyaYolu());
 
         }
 
@@ -72,9 +84,6 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
     }
 }
