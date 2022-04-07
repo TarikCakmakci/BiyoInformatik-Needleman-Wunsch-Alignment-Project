@@ -12,6 +12,8 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 {
     public partial class DegerAlmaForm : Form
     {
+        DosyaYoluForm dyf = new DosyaYoluForm();
+       
         int matchValue = +1;
         int mismatchValue = -1;
         int gapValue = -2;
@@ -20,18 +22,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         {
             InitializeComponent();
         }
-        public void loadForm(object form)
-        {
-            if (this.mainpanel.Controls.Count >0)
-            {
-                this.Controls.RemoveAt(0);
-                Form f = new Form();
-                f.TopLevel = false;
-                f.Dock = DockStyle.Fill;
-                this.mainpanel.Controls.Add(f);
-                this.mainpanel.Tag = f;
-            }
-        }
+       
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -49,6 +40,8 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
+            dyf.Show();
+            this.Hide();
             if (textBox1.Text == "" | textBox2.Text == "" | textBox3.Text == "" )
             {
                 DialogResult dia = MessageBox.Show("Değerleri girmezseniz default değerler kullanılacaktır.Default değerlerin kullanılmasını istiyorsanız yes'i, değer girecekseniz no'yu seçiniz.", "Match,Mismatch,Gap Value", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
@@ -75,7 +68,11 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             //listBox1.Items.Add("Match Değeri: "+matchValue);
             //listBox1.Items.Add("Mismatch Değeri: "+mismatchValue);
             //listBox1.Items.Add("Gap Değeri:"+ gapValue);
-            loadForm(new DosyaYolu());
+            
+            
+            
+
+
 
         }
 

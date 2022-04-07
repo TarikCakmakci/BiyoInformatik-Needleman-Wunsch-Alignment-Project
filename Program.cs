@@ -14,6 +14,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new DegerAlmaForm());

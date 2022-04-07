@@ -8,5 +8,5 @@ C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\B
 C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.exe
 C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik-Needleman-Wunsch-Alignment-Project.pdb
 C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.DegerAlmaForm.resources
-C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.DosyaYolu.resources
-C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.Sonuc.resources
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.DosyaYoluForm.resources
+C:\Users\Tarık\source\repos\BiyoInformatik-Needleman-Wunsch-Alignment-Project\BiyoInformatik-Needleman-Wunsch-Alignment-Project\obj\Debug\BiyoInformatik_Needleman_Wunsch_Alignment_Project.SonucForm.resources

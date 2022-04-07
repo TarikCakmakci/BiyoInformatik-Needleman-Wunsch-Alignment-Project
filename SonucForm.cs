@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 {
-    public partial class Sonuc : Form
+    public partial class SonucForm : Form
     {
-        public Sonuc()
+        public SonucForm()
         {
             InitializeComponent();
         }

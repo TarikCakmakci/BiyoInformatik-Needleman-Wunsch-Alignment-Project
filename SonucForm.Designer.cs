@@ -1,7 +1,7 @@
 ﻿
 namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
 {
-    partial class Sonuc
+    partial class SonucForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,19 +29,33 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Sonuc
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(195, 210);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Sonucform";
+            // 
+            // SonucForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 573);
-            this.Name = "Sonuc";
-            this.Text = "Sonuc";
+            this.Controls.Add(this.label1);
+            this.Name = "SonucForm";
+            this.Text = "SonucForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }

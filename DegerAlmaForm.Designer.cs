@@ -39,7 +39,6 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.mainpanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -133,20 +132,12 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             this.label6.TabIndex = 10;
             this.label6.Text = "Default Değerler";
             // 
-            // mainpanel
-            // 
-            this.mainpanel.Location = new System.Drawing.Point(32, 441);
-            this.mainpanel.Name = "mainpanel";
-            this.mainpanel.Size = new System.Drawing.Size(561, 92);
-            this.mainpanel.TabIndex = 11;
-            // 
             // DegerAlmaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(633, 573);
-            this.Controls.Add(this.mainpanel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
@@ -178,7 +169,6 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel mainpanel;
     }
 }
 
