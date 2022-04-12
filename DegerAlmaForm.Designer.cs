@@ -106,10 +106,12 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(407, 169);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(170, 121);
+            this.listBox1.Size = new System.Drawing.Size(170, 116);
             this.listBox1.TabIndex = 7;
             // 
             // button1
