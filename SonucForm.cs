@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,31 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             string fileName22 = DosyaYoluForm.fileName2;
             label4.Text = fileName11;
             label6.Text = fileName22;
+
+            using (StreamReader file = new StreamReader(fileName11))
+            {
+                int counter = 0;
+                string ln;
+
+                while ((ln = file.ReadLine()) != null)
+                {
+                    listBox1.Items.Add(ln);
+                    counter++;
+                }
+                file.Close();
+            }
+            using (StreamReader file = new StreamReader(fileName22))
+            {
+                int counter = 0;
+                string ln;
+
+                while ((ln = file.ReadLine()) != null)
+                {
+                    listBox2.Items.Add(ln);
+                    counter++;
+                }
+                file.Close();
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)

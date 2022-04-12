@@ -47,7 +47,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.button1.BackColor = System.Drawing.Color.Lime;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(459, 477);
+            this.button1.Location = new System.Drawing.Point(464, 480);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 66);
             this.button1.TabIndex = 1;
@@ -99,7 +99,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(61, 357);
+            this.label2.Location = new System.Drawing.Point(10, 348);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 18);
             this.label2.TabIndex = 16;
@@ -110,7 +110,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(61, 423);
+            this.label3.Location = new System.Drawing.Point(10, 414);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 18);
             this.label3.TabIndex = 17;
@@ -120,7 +120,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(60, 304);
+            this.label4.Location = new System.Drawing.Point(9, 295);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(354, 19);
             this.label4.TabIndex = 20;
@@ -130,7 +130,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(367, 357);
+            this.label7.Location = new System.Drawing.Point(316, 348);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(50, 18);
             this.label7.TabIndex = 21;
@@ -140,7 +140,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(364, 423);
+            this.label8.Location = new System.Drawing.Point(313, 414);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(50, 18);
             this.label8.TabIndex = 22;
@@ -150,7 +150,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.button2.BackColor = System.Drawing.Color.LawnGreen;
             this.button2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(198, 345);
+            this.button2.Location = new System.Drawing.Point(147, 336);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 42);
             this.button2.TabIndex = 23;
@@ -162,7 +162,7 @@ namespace BiyoInformatik_Needleman_Wunsch_Alignment_Project
             // 
             this.button3.BackColor = System.Drawing.Color.LawnGreen;
             this.button3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(198, 413);
+            this.button3.Location = new System.Drawing.Point(147, 404);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 39);
             this.button3.TabIndex = 24;
